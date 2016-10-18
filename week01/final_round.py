@@ -38,6 +38,3 @@ def group(arr):
     else:
         all_groups.append([arr[-1]])
     return all_groups
-
-
-print(group([1, 1, 1, 2, 3, 3]))
