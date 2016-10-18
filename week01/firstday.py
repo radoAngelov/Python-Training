@@ -117,7 +117,7 @@ def count_consonants(str):
     counter = 0
 
     for i in str:
-        if i not in ' aeiouy1234567890!@#$%^&*().,:;|\/?':
+        if i not in ' aeiouy1234567890!@#$%^&*().,:"'';|\/?':
             counter += 1
 
     return counter
