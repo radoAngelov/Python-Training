@@ -134,6 +134,3 @@ def matrix_bombing_plan(m):
             if result[(k1, k2)] < 0:
                 result[(k1, k2)] = 0
     return(result)
-
-
-print(matrix_bombing_plan([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
